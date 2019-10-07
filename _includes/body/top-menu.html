@@ -1,0 +1,11 @@
+<div class="container-fluid">
+  <ul>
+    <li>{{site.links.products.label}}</li>
+    {% if site.links.about.enabled %}
+      <li>{{site.links.about.label}}</li>
+    {% endif %}
+    {% if site.links.contact.enabled %}
+      <li>{{site.links.contact.label}}</li>
+    {% endif %}
+  </ul>
+</div>

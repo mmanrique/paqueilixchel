@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+{% assign layout_product_html = null %}
+{% capture layout_page_html %}
+<html lang="en">
+{% include head/common.html %}
+{% include body/common.html %}
+</html>
+{% endcapture %}
+{{ layout_product_html | remove:'	' }}

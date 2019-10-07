@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+{% assign layout_page_html = null %}
+{% capture layout_page_html %}
+<html lang="en">
+{% include head/common.html %}
+{% include body/top-menu.html %}
+{{ content }}
+{% include body/javascript.html %}
+</html>
+{% endcapture %}
+{{ layout_page_html | remove:'	' }}

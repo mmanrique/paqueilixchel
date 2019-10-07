@@ -1,0 +1,14 @@
+#Site properties
+name: Paqueil Ixchel
+
+
+#Link Properties
+links:
+  products:
+    label: Productos
+  about:
+    enabled: true
+    label: Acerca de Mi
+  contact:
+    enabled: false
+    label: Contactanos
