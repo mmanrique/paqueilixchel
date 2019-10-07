@@ -3,9 +3,11 @@
 {% capture layout_page_html %}
 <html lang="en">
 {% include head/common.html %}
-{% include body/top-menu.html %}
-{{ content }}
-{% include body/javascript.html %}
+<div class="container">
+  {% include body/top-menu.html %}
+  {{ content }}
+  {% include body/javascript.html %}
+</div>
 </html>
 {% endcapture %}
 {{ layout_page_html | remove:'	' }}

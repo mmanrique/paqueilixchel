@@ -4,7 +4,10 @@ exclude: true
 ---
 {% assign index_page_content = null %}
 {% capture index_page_content %}
-<h1>Hello from my sie</h1>
+<div id="product-container">
+  {% include body/product_list.html %}
+</div>
+
 {% endcapture %}
 
 {{ index_page_content | remove:'	' }}

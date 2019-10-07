@@ -1,0 +1,30 @@
+product_list:
+- title: Exfoliante y emoliente facial
+  image: images/exfoliante_emoliente_facial.png
+  alt: exfoliante emolientefacial thumbnail
+  href: /exfoliante_emoliente_facial.html
+  description: Limpiador facial en polvo ideal para exfoliar y limpiar a profundidad los poros de la piel ...
+
+- title: Enjuague Bucofaringeo
+  image: images/enjuague_bucofaringeo.png
+  alt: enjuague bucofaringeo
+  href: /enjuague_bucofaringeo.html
+  description: Refresca el aliento, previene formación de bacterias
+
+- title: Garritas Humectantes
+  image: images/garrita_humectante.png
+  alt: garrita humectante
+  href: /garrita_humectante.html
+  description: Muy util para salir de viaje y para sustituir el uso de crema corporal
+
+- title: Desodorante Corporal
+  image: images/desodorante_corporal.png
+  alt: desodorante corporal
+  href: /desodorante_corporal.html
+  description: Absorbe, refresca y protege con agradable aroma.
+
+- title: Desodorante Natural
+  image: images/desodorante_natural.png
+  alt: desodorante natural
+  href: /desodorante_natural.html
+  description: Aloe vera y la arcilla blanca para cuidar y calmar la piel
