@@ -1,21 +1,19 @@
-<div class="container">
-  <div class="row">
-    {% for item in site.data.products.product_list %}
-    <div class="col-md-4 product pt-4">
-      <div class="card">
-        <a href="{{item.href}}" class="card-image-top">
-          <div class="thumbnail w-100" >
-            <img src="{{item.image}}" alt="{{item.alt}}" width="338px" height="280px" class="w-100">
-          </div>
-        </a>
-        <div class="product-description card-body">
-          <a href="{{item.href}}">
-            <h2 class="card-title">{{item.title}}</h2>
-          </a>
-          <p class="card-text text-truncate">{{item.description}}</p>
+<div class="row">
+  {% for item in site.data.products.product_list %}
+  <div class="col-md-4 product pt-4">
+    <div class="card">
+      <a href="{{item.href}}" class="card-image-top">
+        <div class="thumbnail w-100" >
+          <img src="{{item.image}}" alt="{{item.alt}}" width="338px" height="280px" class="w-100">
         </div>
+      </a>
+      <div class="product-description card-body">
+        <a href="{{item.href}}">
+          <h2 class="card-title">{{item.title}}</h2>
+        </a>
+        <p class="card-text text-truncate">{{item.description}}</p>
       </div>
     </div>
-    {% endfor %}
   </div>
+  {% endfor %}
 </div>
