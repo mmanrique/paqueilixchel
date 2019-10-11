@@ -9,18 +9,17 @@
   <div class="collapse navbar-collapse h4" id="navbarSupportedContent">
     <ul class="navbar-nav  ml-auto">
       <li class="nav-item">
-        <a class="nav-link" href="#">{{site.links.products.label}}</a>
+        <a class="nav-link" href="{{site.links.products.url}}">{{site.links.products.label}}</a>
       </li>
 
       {% if site.links.about.enabled %}
       <li class="nav-item">
-        <a class="nav-link" href="#">{{site.links.about.label}}</a>
+        <a class="nav-link" href="{{site.links.about.url}}">{{site.links.about.label}}</a>
       </li>
       {% endif %}
-
       {% if site.links.contact.enabled %}
       <li class="nav-item">
-        <a class="nav-link" href="#">{{site.links.contact.label}}</a>
+        <a class="nav-link" href="{{site.links.contact.url}}">{{site.links.contact.label}}</a>
       </li>
       {% endif %}
     </ul>

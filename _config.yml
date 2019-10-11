@@ -5,10 +5,14 @@ name: Paqueil Ixchel
 #Link Properties
 links:
   products:
+    enabled: true
     label: Productos
+    url: /
   about:
     enabled: true
     label: Acerca de Mi
+    url: /about.html
   contact:
     enabled: false
     label: Contactanos
+    url: /contactanos.html
