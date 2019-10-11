@@ -1,0 +1,7 @@
+<div id="order-this-link" class="row pt-4 justify-content-md-center">
+  {% assign current_url = site.url | append: page.url %}
+  <a href="{{site.order.order_link}}?text={{order_text}}{{current_url | url_enconde}}" target="_blank" >
+    <i class="fab fa-whatsapp"></i>
+    {{site.order.order_label}}
+  </a>
+</div>

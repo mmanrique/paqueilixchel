@@ -1,9 +1,16 @@
 <!DOCTYPE html>
 {% assign layout_product_html = null %}
-{% capture layout_page_html %}
+{% capture layout_product_html %}
 <html lang="en">
 {% include head/common.html %}
-{% include body/common.html %}
+  <body class="h-100">
+    <div class="container" >
+      {% include body/top-menu.html %}
+      {% include body/product.html %}
+    </div>
+    {% include body/footer.html %}
+    {% include body/javascript.html %}
+  </body>
 </html>
 {% endcapture %}
 {{ layout_product_html | remove:'	' }}

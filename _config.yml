@@ -11,8 +11,17 @@ links:
   about:
     enabled: true
     label: Acerca de Mi
-    url: /about.html
+    url: /about_me.html
   contact:
     enabled: false
     label: Contactanos
     url: /contactanos.html
+
+order:
+  order_link: https://wa.me/5215520678599
+  order_text: Me%20intereso%20este%20producto%20
+  order_label: Ordernar
+
+#Host name
+url: https://paqueilixchel.github.io
+
